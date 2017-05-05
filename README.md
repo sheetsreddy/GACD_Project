@@ -13,6 +13,6 @@ The file project_gacd.R cleans up data collected from the accelerometers from th
   8) Extract meanstd columns from x_merge table
   9) Column bind tables x_merge, y_merge and sub_merge using cbind function into merged variable
   10) Use ddply function on "merged" data and group by "id" and "activity" and perform a column mean on each of variable using colMeans function
-  11) Write average data to averages.txt file
+  11) Write average data extracted in step 10 to average_data.txt file
   
   Further details on the variables names are given in codebook.md file
