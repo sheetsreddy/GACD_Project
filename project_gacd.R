@@ -63,4 +63,4 @@ merged <- cbind(x_merge,y_merge,sub_merge)
 #STEP5: TIDY DATA SET WITH AVERAGE OF EACH VARIABLE FOR EACH ACTIVITY FOR EACH SUBJECT
 avg_data <- ddply(merged,.(id,activity),function(x) colMeans(x[,1:66]))
 
-write.table(avg_data,"average_data.txt")
+write.table(avg_data,"average_data.txt",row.name=FALSE)
