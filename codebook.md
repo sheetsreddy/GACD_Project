@@ -14,7 +14,11 @@ average_data.txt stores the final average data by each variable by each activity
 Variables in the average_data.txt file
 
 id - subject ids from 1 to 30 indicating results of experiments that were performed on 30 people
+
 activity - 6 activities - laying, sitting, standing, walking, walking_upstairs, walking_downstairs
+
+Mean and standard deviations measurements
+
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y          
 tBodyAcc-mean()-Z
