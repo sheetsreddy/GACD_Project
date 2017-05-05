@@ -15,4 +15,4 @@ The file project_gacd.R cleans up data collected from the accelerometers from th
   10) Use ddply function on "merged" data and group by "id" and "activity" and perform a column mean on each of variable using colMeans function
   11) Write average data to averages.txt file
   
-  Further details on the variables names are given in codebood.md file
+  Further details on the variables names are given in codebook.md file
